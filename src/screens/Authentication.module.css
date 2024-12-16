@@ -1,0 +1,130 @@
+
+/* Container for the authentication form */
+/* .authContainer {
+    padding: 20px;
+    border-radius: 8px;
+   ccc width: 300px;
+    margin-left: -100px;
+    margin-top: -150px;
+   ccc margin: 0;
+} */
+
+/* Title for the form */
+/* .authContainer h3 {
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 0;
+} */
+
+/* Style for form fields */
+/* .authContainer input {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #0a0a0a;
+    margin-top: 10px;
+    width: 100%; */
+
+
+
+    /* Space between inputs */
+    /* box-sizing:content-box;
+    background-color: #fff;
+} */
+
+/* Style for the submit button */
+/* .authContainer button {
+    border: 30px solid #050505;
+    color: rgb(5, 5, 5);
+    border: none;
+    padding: 10px 100px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight:italic;
+    margin-top: 30px;
+    margin-bottom: 5px;
+} */
+
+/* .authContainer button:hover {
+    background-color: #ce0808;
+    border: 1px solid rgb(14, 13, 13);
+} */
+
+/* .authContainer a {
+    color: #fc0505;
+    text-decoration: none;
+} */
+
+/* .authContainer a:hover {
+    text-decoration: underline;
+} */
+
+
+/* Container for the authentication form */
+.authContainer {
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Title for the form */
+  .authContainer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form fields */
+  .authContainer input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    transition: 0.3s ease;
+  }
+  
+  .authContainer input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Style for the submit button */
+  .authContainer button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    transition: 0.3s ease;
+  }
+  
+  .authContainer button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Links for sign-up/sign-in */
+  .authContainer a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .authContainer a:hover {
+    text-decoration: underline;
+  }
+  
